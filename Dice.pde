@@ -74,29 +74,17 @@ class Die //models one single dice cube
     rect(myX,myY,300,300);
     if (numDots == 1) {
       fill(0);
-      text ("1", myX, myY);
-      int a = 1;
-      fill(0);
       ellipse (myX+150,myY+150,10,10);
     } if (numDots == 2) {
-      fill(0);
-      text ("2", myX, myY);
-      int b = 2;
       fill(0);
       ellipse (myX+25,myY+25,10,10);
       ellipse (myX+275,myY+275,10,10);
     } if (numDots == 3) {
       fill(0);
-      text ("3", myX, myY);
-      int c = 3;
-      fill(0);
       ellipse (myX+25,myY+25,10,10);
       ellipse (myX+275,myY+275,10,10);
       ellipse (myX+150,myY+150,10,10);
     } if (numDots == 4) {
-      fill(0);
-      text ("4", myX, myY);
-      int d = 4;
       fill(0);
       ellipse (myX+25,myY+25,10,10);
       ellipse (myX+275,myY+275,10,10);
@@ -104,18 +92,12 @@ class Die //models one single dice cube
       ellipse (myX+275,myY+25,10,10);
     } if (numDots == 5) {
       fill(0);
-      text ("5", myX, myY);
-      int e = 5;
-      fill(0);
       ellipse (myX+25,myY+25,10,10);
       ellipse (myX+275,myY+275,10,10);
       ellipse (myX+150,myY+150,10,10);
       ellipse (myX+25,myY+275,10,10);
       ellipse (myX+275,myY+25,10,10);
     } if (numDots == 6) {
-      fill(0);
-      text ("6", myX, myY);
-      int f = 6;
       fill(0);
       ellipse (myX+25,myY+25,10,10);
       ellipse (myX+275,myY+275,10,10);
